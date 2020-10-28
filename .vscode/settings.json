@@ -1,0 +1,9 @@
+{
+  "folders": [],
+  "settings": {},
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript, css, scss, jsx, json, html, svg]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
