@@ -3,10 +3,12 @@ import homeSplash from "../images/home_splash.jpg";
 import productImageTemplate from "../images/product_image_template.jpg";
 import "../css/Home.css";
 import Product from "./Product.js";
+import Navbar from "./Navbar.js";
 
 function Home() {
   return (
     <div className="home">
+      <Navbar />
       <div className="home__splashContainer">
         <img src={homeSplash} alt="MIN" />
       </div>

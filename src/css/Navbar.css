@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  z-index: 1;
+  top: 0;
+  position: absolute;
+  border-bottom: 1px solid lightgray;
+}
+
+.navbar__logoContainer {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  width: 30%;
+  height: 100%;
+}
+
+.navbar__logoContainer > p {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}

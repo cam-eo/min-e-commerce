@@ -6,6 +6,11 @@
   border: 1px solid black;
   margin: 10px;
   position: relative;
+  transition: transform 0.3s;
+}
+
+.product:hover {
+  transform: scale(1.03);
 }
 
 .product__image {
@@ -30,4 +35,6 @@
   width: 100%;
   object-fit: contain;
   opacity: 1;
+
+  transition: opacity 0.3s;
 }
