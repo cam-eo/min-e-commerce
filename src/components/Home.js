@@ -4,6 +4,7 @@ import productImageTemplate from "../images/product_image_template.jpg";
 import "../css/Home.css";
 import Product from "./Product.js";
 import Navbar from "./Navbar.js";
+import Footer from "./Footer.js";
 
 function Home() {
   return (
@@ -14,14 +15,44 @@ function Home() {
       </div>
       <div className="home__row">
         <Product
-          d={1}
+          id={1}
           image={productImageTemplate}
           price={200}
           title={"Speaker"}
+          descriptionShort={"This speaker plays nice music ;)"}
         />
-        <Product d={2} image={productImageTemplate} />
-        <Product d={3} image={productImageTemplate} />
+        <Product
+          id={1}
+          image={productImageTemplate}
+          price={200}
+          title={"Speaker"}
+          descriptionShort={"This speaker plays nice music ;)"}
+        />
+        <Product
+          id={1}
+          image={productImageTemplate}
+          price={200}
+          title={"Speaker"}
+          descriptionShort={"This speaker plays nice music ;)"}
+        />
       </div>
+      <div className="home__row">
+        <Product
+          id={1}
+          image={productImageTemplate}
+          price={200}
+          title={"Speaker"}
+          descriptionShort={"This speaker plays nice music ;)"}
+        />
+        <Product
+          id={1}
+          image={productImageTemplate}
+          price={200}
+          title={"Speaker"}
+          descriptionShort={"This speaker plays nice music ;)"}
+        />
+      </div>
+      <Footer />
     </div>
   );
 }
