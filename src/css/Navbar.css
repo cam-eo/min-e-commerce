@@ -1,7 +1,8 @@
 .navbar {
   display: flex;
+  align-items: center;
   width: 100%;
-  height: 40px;
+  height: 50px;
   z-index: 1;
   top: 0;
   position: absolute;
@@ -11,8 +12,7 @@
 .navbar__logoContainer {
   display: flex;
   align-items: center;
-  margin-left: 30px;
-  width: 30%;
+  margin: 0 30px;
   height: 100%;
 }
 
@@ -20,4 +20,55 @@
   font-size: 25px;
   color: white;
   text-decoration: none;
+}
+
+.navbar__searchContainer {
+  display: flex;
+  flex: 1;
+  height: 80%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: lightseagreen;
+}
+
+.header__searchIcon {
+  padding: 0 8px;
+  height: 100% !important;
+  background-color: lightgray;
+  color: white;
+}
+
+.header__searchIcon:hover {
+  background-color: darkgray;
+  transition: all 0.2s;
+}
+
+.header__searchInput {
+  height: 100%;
+  border: none;
+  width: 100%;
+  font-size: large;
+  padding-left: 10px;
+  outline: none;
+  border: 1px solid lightgray;
+}
+
+.navbar__items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0 10px;
+}
+
+.navbar__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  padding: 0 10px;
+  width: 100%;
 }
